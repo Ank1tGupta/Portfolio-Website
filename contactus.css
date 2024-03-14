@@ -1,0 +1,93 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: #eeeeee;
+}
+.border{
+    padding: 20px 30px 15px;
+}
+.navbar{
+    padding-right: 95px;
+    display: flex;
+    justify-content:right;
+    background-color: transparent;
+    height: 50px;
+}
+.navan{
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+}
+.container{
+    padding: 9em 0 0 7em;
+}
+.container h1{
+    font-size:80px;
+}
+.container pre{
+    font-size: 18px;
+}
+.container h2{
+    font-size: 45px;
+    font-weight:500;
+}
+form{
+    margin-top:1em;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 3em 0 0 3em;
+}
+.wrapper h1{
+    font-size: 1.5rem;
+}
+.input-box{
+    font-size: 18px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: 80px;
+} 
+.input-box input{
+    width: 450px;
+    height: 45px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #8699da;
+    border-radius: 40px;
+    font-size: 13px;
+    padding-left: 15px;
+    color: #8699da;
+}
+.input-box input::placeholder{
+    color: #8699da;
+    
+}
+
+.signup{
+    padding-bottom: 8px;
+}
+.hh{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+} 
+.btn{
+    width: 100%;
+    background:#8699da;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: #eeeeee;
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 1em;
+    font-weight: 600;
+}

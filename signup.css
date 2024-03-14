@@ -1,0 +1,113 @@
+body{
+    background-color:#eeeeee;
+}
+.border{
+    padding: 20px 30px 15px;
+}
+.navbar{
+    padding-right: 95px;
+    display: flex;
+    justify-content:right;
+    background-color: transparent;
+    height: 50px;
+}
+.navan{
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+}
+.anc{
+    text-decoration: none;
+    color: #8699da;
+    font-weight: 500;
+}
+a:hover{
+    text-decoration: underline;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: auto;
+}
+form{
+    margin-top:1em;
+}
+.wrapper{
+    display: flex;
+    margin: 0em 0 0 1em;
+}
+.wrapper h1{
+    font-size: 1.5rem;
+}
+.input-box{
+    font-size: 18px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: 80px;
+}
+.input-box input{
+    width: 450px;
+    height: 45px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #8699da;
+    border-radius: 40px;
+    font-size: 13px;
+    padding-left: 15px;
+    color: #8699da;
+}
+.input-box input::placeholder{
+    color: #8699da;
+    
+}
+
+.signup{
+    padding-bottom: 8px;
+}
+.hh{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding:   2em 0em;
+   
+}
+.remember label{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.remember label input{
+    accent-color: #8699da;
+    margin-right: 3px;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+} 
+
+.btn{
+    width: 100%;
+    background:#8699da;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: #eeeeee;
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 1em;
+    font-weight: 600;
+}
+.img{
+    width: 60%;
+    mix-blend-mode:darken;
+img{
+    width: 100%;
+}
+}

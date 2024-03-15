@@ -19,6 +19,18 @@ body{
     color:black;
     font-weight: 500;
 }
+.photo{
+    text-align: center;
+    padding-right: 50rem;
+    padding-top: 1.5rem;
+}
+.image {
+    width: 70px; 
+    height: 70px;
+    border-radius: 50%; 
+    margin-bottom: 10px; 
+    /* mix-blend-mode: darken; */
+}
 .container{
     padding: 9em 0 0 7em;
 }
@@ -90,4 +102,9 @@ input[type="checkbox"]{
     font-size: 16px;
     padding: 1em;
     font-weight: 600;
+}
+.btn:hover{
+    background-color: #f1d6c4;
+    color: black;
+    border: none;
 }

@@ -19,6 +19,18 @@ body{
     color:black;
     font-weight: 500;
 }
+.pht{
+    text-align: center;
+    padding-right: 50rem;
+    padding-top: 1.5rem;
+}
+.imag {
+    width: 70px; 
+    height: 70px;
+    border-radius: 50%; 
+    margin-bottom: 10px; 
+    /* mix-blend-mode: darken; */
+}
 a:hover{
     text-decoration: underline;
 }

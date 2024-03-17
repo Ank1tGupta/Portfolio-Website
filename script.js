@@ -1,3 +1,6 @@
+function dashboard(){
+    window.location.href='dashboard.html'
+}
 function myfile(){
     window.location.href='myfiles.html'
 }

@@ -1,0 +1,136 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: #EEEEEE;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.border{
+    padding: 25px 30px 15px;
+}
+.navbar{
+    padding-right: 85px;
+    display: flex;
+    justify-content: right;
+    background-color: transparent;
+    height: 50px;
+}
+.navan{
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+}
+.space{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.dash{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px ;
+
+}
+.minor{
+    height: 100%;
+    width: 65px;
+    background-color:#f1d6c4;
+    
+}
+.major{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px ;
+    height:100%;
+    width: 330px;
+    background-color: #8699da;
+}
+.photo{
+    text-align: left;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+}
+.image {
+    width: 60px; 
+    height: 60px;
+    border-radius: 50%; 
+    margin-bottom: 10px; 
+}
+.menu{
+    margin-top: 1rem; 
+    padding: 3rem 0 4rem 0;
+}
+.dashboard, .myfile , .create ,.users{
+    display: flex;
+}
+.create{
+    justify-content: flex-end;
+    background:#EEEEEE;
+    border: none;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #8699da;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 3.5%;
+    margin-left: 3rem;
+    font-weight: 600;
+}
+.logout{
+    display: flex;
+    justify-content: center;
+    margin-top: 120%;
+}
+.dashh{
+    color: #EEEEEE;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-align: left;
+    font-size: 16px;
+    padding: 1rem;
+    margin: 1.5% 0 1.5% 1.5%;
+    font-weight: 600;
+}
+.dashh:hover{
+    justify-content: flex-end;
+    background:#EEEEEE;
+    border: none;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #8699da;
+    cursor: pointer;
+    font-size: 16px;
+    padding:1rem;
+    margin-left: 3rem;
+    font-weight: 600;
+}
+.icon{
+    color: #f1d6c4;
+    margin-right: 0.5rem;
+}
+.outb{
+    color: #EEEEEE;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+    padding:1em 2em 3em 1em;
+    font-weight: 600;
+}
+.outb:hover{
+    font-weight: 800;
+    color: #f1d6c4;
+}
+.logicon{
+    margin-left: 0.7rem;
+}
+  

@@ -10,19 +10,17 @@ body{
 .navbar{
     padding-right: 95px;
     display: flex;
-    justify-content:right;
+    justify-content:space-between;
     background-color: transparent;
     height: 50px;
 }
-.navan{
-    text-decoration: none;
-    color:black;
-    font-weight: 500;
+.navv{
+    display:flex;
+    justify-content: right;
 }
 .pht{
     text-align: center;
-    padding-right: 50rem;
-    padding-top: 1.5rem;
+    padding: 1.5rem 0 0 1.5rem;
 }
 .imag {
     width: 70px; 
@@ -30,6 +28,11 @@ body{
     border-radius: 50%; 
     margin-bottom: 10px; 
     /* mix-blend-mode: darken; */
+}
+.navan{
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
 }
 a:hover{
     text-decoration: underline;

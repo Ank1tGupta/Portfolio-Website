@@ -81,9 +81,10 @@ body{
     font-weight: 600;
 }
 .logout{
-    display: flex;
-    justify-content: center;
-    margin-top: 120%;
+  position: absolute;
+  bottom: 0;
+  left: 6.5em;
+
 }
 .dashh{
     color: #EEEEEE;
@@ -133,4 +134,9 @@ body{
 .logicon{
     margin-left: 0.7rem;
 }
-  
+/* .screen{
+    background-image: url(dashboard-back.jpg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+} */

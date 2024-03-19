@@ -47,14 +47,14 @@ a:hover{
     font-size: 18px;
 }
 .container h2{
-    font-size: 45px;
+    font-size: 3rem;
     font-weight:500;
+    margin-top: 10rem;
 }
 .wrapper{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0.5em 0 0 3em;
+    justify-content: space-around;
 }
 .wrapper h1{
     font-size: 1.5rem;

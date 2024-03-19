@@ -81,9 +81,9 @@ body{
     font-weight: 600;
 }
 .logout{
-    display: flex;
-    justify-content: center;
-    margin-top: 120%;
+    position: absolute;
+    bottom: 0;
+    left: 6.5em;
 }
 .dashh{
     color: #EEEEEE;

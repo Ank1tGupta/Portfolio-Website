@@ -134,9 +134,18 @@ body{
 .logicon{
     margin-left: 0.7rem;
 }
-/* .screen{
-    background-image: url(dashboard-back.jpg);
-    height: 500px;
-    width: 100%;
-    background-repeat: no-repeat;
-} */
+.screen{
+   float: right;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   width: 80%;
+   
+    
+}
+#currentImage{
+    width: auto;
+}
+
+  
+  
